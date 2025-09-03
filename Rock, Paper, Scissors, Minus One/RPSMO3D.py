@@ -51,9 +51,6 @@ def computer_choice(n):
     print(f"Computer choices: {computer_letters}")
     return computer_letters
 
-
-    
-
 # Background Screen
 game_background_original = pygame.image.load("Images/Wallpaper.png").convert_alpha()
 game_background = pygame.transform.scale(game_background_original, (width, height))
